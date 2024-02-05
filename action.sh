@@ -22,5 +22,6 @@ rm miniconda.sh
 
 # echo "Miniconda se ha instalado correctamente."
 make env_create
+conda init
 conda activate dashboard
 # make run
