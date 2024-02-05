@@ -18,4 +18,7 @@ source ~/.profile
 # Borrar el instalador
 rm miniconda.sh
 
-echo "Miniconda se ha instalado correctamente."
+# echo "Miniconda se ha instalado correctamente."
+make env_create
+conda activate dashboard
+# make run
